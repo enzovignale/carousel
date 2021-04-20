@@ -1,0 +1,46 @@
+#carousel{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 1px solid #000;
+    margin: auto;
+
+}
+#carousel .item{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background: rgba(0,0,0,0.5) url('/download.png') ;
+    background-size: cover;
+    background-position: -50px 0;
+    border: 1px solid #000 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+#carousel .item-label{
+    background-color: #000;
+    color: #fff;
+}
+.btn{
+    position: absolute;
+    z-index: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #cc9900;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 40px 0 0 0;
+}
+.btn:hover{
+    background: #ccc;
+}
+.btn-previous{
+    float: left;
+}
+.btn-next{
+    float: right;
+    position: relative;
+}
